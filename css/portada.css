@@ -1,5 +1,5 @@
 *{
-    margin: 5px;
+    margin: 0px;
     padding: 0 px;
     box-sizing: border-box;
     
@@ -17,6 +17,7 @@ a:hover{
 .remove-bg{
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+    margin: 15px;
 }
 .margen-interno
    
@@ -34,29 +35,35 @@ a:hover{
     background-size: cover;
     display: flex;
     flex-flow: column nowrap;
-    border-radius: 20px;
+    
     
    
 }
       .menu{
+          margin: 50px 10px;
           background: rgba(0, 0, 0, .1);
           display: flex;
           flex-flow: nowrap;
           height: 100px;
           align-items: center;
           border-radius: 20px;
+          letter-spacing: 1.5px;
+          
+          
         
           
       }
             .logo{
-                
+                margin-top: 20px;
                 flex: 1 1 auto;
                 border-radius: 50px;
 
             }
             .nav{
                 
-                flex: 5 1 auto;             
+                flex: 5 1 auto; 
+                margin-top: 40px;
+                margin-bottom: 50px;            
                
 
             }
@@ -67,16 +74,21 @@ a:hover{
                     font-size: 15px;
                     text-transform: uppercase;
                     padding: 0 10px;
-                    letter-spacing: 2px;
+                   
+                    
                 }
                 .nav :hover{
                     color: red;
+                    font-display: absolute;
+
 
                 }
             .social{
                 display: flex;
                 flex: 1 1 auto;
                 border-radius: 20px;
+                margin-bottom: 20px;
+                margin-top: 25px;
 
             }
                 .social :hover{
@@ -88,6 +100,8 @@ a:hover{
                 .social a{
                     color: white;
                     font-size: 22px;
+                    padding: 30px ;
+
                 }
       .texto-principal{
       height: auto;
