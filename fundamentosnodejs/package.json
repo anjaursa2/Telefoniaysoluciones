@@ -1,0 +1,16 @@
+{
+  "name": "fundamentosnodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

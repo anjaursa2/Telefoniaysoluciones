@@ -1,0 +1,77 @@
+body{
+    font-family: 'Arimo', sans-serif;
+}
+h2{
+    font-weight: 700;
+}
+.container{
+     margin: 0 auto;
+     width: 90%;    
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 20px;
+    color: black;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px  rgb(100, 50, 50);
+    width: 20%;
+    
+    
+}
+@media (max-width : 900px){
+.columna{
+    background: rgb(228, 228, 228);
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px  rgb(100, 50, 50);
+    width: 40%;
+    
+    
+}
+}
+@media (max-width : 494px){
+    .columna{
+        background: rgb(228, 228, 228);
+        color: black;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px  rgb(100, 50, 50);
+        width: 100%;
+        
+        
+    }
+    }
+.btn-precio{
+    background: rgb(204, 14, 14);
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+.btn-precio:hover{
+    background-color: rgb(100, 50, 50);
+}

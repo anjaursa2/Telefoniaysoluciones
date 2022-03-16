@@ -1,0 +1,233 @@
+@media (max-width : 900px)
+{header{
+    flex-direction: column;
+    
+}}
+
+@media (max-width : 900px)
+{ body{
+    flex-direction: column;
+    border-radius: 20px;
+} }
+title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50;
+}
+header{
+    text-align: center;
+    margin-bottom: 0px;
+    
+    
+}
+
+body{
+    margin: 10px;
+    border-radius: 20px;
+    font-style: normal;
+}    
+h1{
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-style: normal;
+    
+    
+}
+
+.info{
+    margin-left: 70%;
+    font-size: smaller;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+
+    
+}
+div.info a i{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+div.info a i:hover{
+    color: red;
+}
+.imagen-logo{
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    
+    
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.btn-wsp:hover{
+    background: yellowgreen;
+}
+a#whatsapp{
+    float: left;
+    border-radius: 20px;
+
+    color: green; font-size: large;
+}
+button#whatsapp{
+    background: greenyellow;
+    border-radius: 15px;
+}
+button#whatsapp:hover{
+    background: red;
+}
+
+.rojo{
+    color: red; 
+}
+.negro{
+    color: black;
+}
+.blanco{
+    color: white;
+}
+.fondo{
+    background: rgb(199, 199, 199);
+}
+.fondoparrafo{
+    background: black;
+    margin: 100px 100px 100px 100px ;
+    color: white;
+}
+#parrafo{
+    color: white;
+    background: red;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 80px 20px;
+    font-size: 10px;
+    
+
+
+}
+h3{
+    
+    font-size: 20px;
+}
+.final{
+    background:black;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+    border-radius: 20px;
+}
+@media (max-width : 600px){
+    h4{
+        display: none;
+    }
+}
+@media (max-width : 900px)
+{ nav{
+    flex-direction: column;
+    border-radius: 20px;
+} .nav-enlase{
+    margin: 10px 0;
+}
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    background:white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+@media (max-width : 600px)
+{ section.padre{
+    
+    display: flex;
+
+} 
+}
+.nav-enlase{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+}
+.nav-enlase:hover{
+    background-color: #444;
+
+}
+nav{
+    margin: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.nav-boton{
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: none;   
+
+}
+@media (max-width : 900px)
+{ nav{
+    flex-direction: column;
+} .nav-enlase{
+    margin: 10px 0;
+}
+  .nav-boton{
+    display: inline-block;
+    border-radius: 20px;
+}
+  .desaparece{
+      display: none;
+  }
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;    
+   
+}
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+.text-center{
+   text-align: center;
+}
+.precio{
+   font-size: 20px;
+   color: black;
+}
+.columna{
+   background: rgb(0, 0, 0);
+   color: white;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   width: 100%;
+   
+}

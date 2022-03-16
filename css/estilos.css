@@ -1,0 +1,194 @@
+@media (max-width : 900px)
+{header{
+    flex-direction: column;
+    
+}}
+
+@media (max-width : 900px)
+{ body{
+    flex-direction: column;
+    border-radius: 20px;
+} }
+title{
+    text-align: center;
+}
+header{
+    text-align: center;
+    
+}
+body{
+    margin: 10px;
+    border-radius: 20px;
+}    
+h1{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+h2{
+    color:rgb(245, 4, 4);
+    margin: 10px;
+    padding: 17px;
+    border-radius: 20px;
+}
+h3{
+    margin: 10px;
+    border-radius: 20px;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+
+}
+a#whatsapp{
+    float: left;
+    border-radius: 20px;
+
+    color: green; font-size: large;
+}
+button#whatsapp{
+    background: greenyellow;
+    border-radius: 15px;
+}
+button#whatsapp:hover{
+    background: goldenrod;
+}
+
+.rojo{
+    color: red; 
+}
+.negro{
+    color: black;
+}
+.blanco{
+    color: white;
+}
+.fondo{
+    background: rgb(199, 199, 199);
+}
+.fondoparrafo{
+    background: black;
+    margin: 100px 100px 100px 100px ;
+    color: white;
+}
+#parrafo{
+    color: white;
+    background: red;
+    padding: 50px;
+    border-radius: 20px;
+
+
+}
+.final{
+    background:black;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+    border-radius: 20px;
+}
+@media (max-width : 600px){
+    h4{
+        display: none;
+    }
+}
+@media (max-width : 900px)
+{ nav{
+    flex-direction: column;
+    border-radius: 20px;
+} .nav-enlase{
+    margin: 10px 0;
+}
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    background:white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+@media (max-width : 600px)
+{ section.padre{
+    flex-direction: column;
+    display: none;
+
+} 
+}
+.nav-enlase{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+}
+.nav-enlase:hover{
+    background-color: #444;
+
+}
+nav{
+    margin: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.nav-boton{
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: none;   
+
+}
+@media (max-width : 900px)
+{ nav{
+    flex-direction: column;
+} .nav-enlase{
+    margin: 10px 0;
+}
+  .nav-boton{
+    display: inline-block;
+    border-radius: 20px;
+}
+  .desaparece{
+      display: none;
+  }
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;    
+   
+}
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+.text-center{
+   text-align: center;
+}
+.precio{
+   font-size: 20px;
+   color: black;
+}
+.columna{
+   background: rgb(0, 0, 0);
+   color: white;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   width: 100%;
+   
+}

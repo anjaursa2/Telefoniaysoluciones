@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefonia y Soluciones</title>
+    <link rel="stylesheet" href="css/estilos.css"><!--"link" es como ligo el css al html-->
+    <link rel="stylesheet" href="javascript.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    <h1>Telefonia y Soluciones</h1>
+    <img src="images/1.jpg" alt="este es el logotipo de ts"><!--esta funcion "img" es para insertar imagenes-->
+    </header>   
+    <div>
+    
+        <p>
+<h2>
+<a  href="https://wa.me/message/GNCQER3JUU6QN1" class="btn-wsp" target="_blank" >
+          <i class="fa fa-whatsapp whatsapp-icon"></i>    
+</a>
+                
+
+</h2>
+        </p>
+    </div>
+    <section> <!--este divisor para separar espacios en la pagina-->
+
+        <h3>
+    
+            <nav>
+                <button class="nav-boton" onclick="accion()">MENU</button>
+            <a href="#"class="nav-enlase desaparece">Tienda</a> 
+            <a href="#"class="nav-enlase desaparece" > Seguimiento de reparacion</a>
+            <a href="#"class="nav-enlase desaparece">Foro Tecnicos</a>
+            
+        
+            <a href="#"class="nav-enlase desaparece">Diagnostico en linea</a>
+            <a href="#"class="nav-enlase desaparece">Hagalo en casa</a>
+            <a href="#"class="nav-enlase desaparece">Unlock en linea</a>
+        
+        
+        
+        </nav>  
+        <script>
+ function accion(){
+    console.log("esta funcionando");
+    var ancla = document.getElementsByClassName('nav-enlase');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('desaparece');
+    }
+
+}
+        </script>    
+    
+        </h3>
+    
+    </section>
+    
+    
+    <nav1>
+    <h3>Sobre Nosotros</h3>
+    <p> <h3 id="parrafo">
+        Lorem ipsum, dolor 
+        <b> sit amet consectetur adipisicing <!-- la "b" es para aplicar negrita-->
+
+        </b> elit. Vitae qui, dicta quos minus laboriosam maiores. Quas, voluptatibus non iusto tempora aut, quaerat necessitatibus esse suscipit odit placeat eius obcaecati corporis!
+    </h3>
+    </p>
+
+    </nav1>
+<section class="padre">
+
+<p class="final">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus repellendus deleniti repellat ab enim officia qui in aut molestias, mollitia odit amet! Modi obcaecati laborum minima aperiam explicabo molestiae?</p>
+<p class="final">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium blanditiis dolor qui rem natus a aspernatur beatae, deserunt saepe culpa deleniti inventore dignissimos. Illo distinctio quasi placeat inventore asperiores tenetur?</p>
+<p class="final">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, adipisci facilis, quo error deleniti enim aliquam libero odio molestias eos iure voluptatibus! Ipsa modi excepturi sit natus eum officiis perferendis.</p>
+
+
+
+
+
+
+</section>
+
+</body>
+</html>
