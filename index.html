@@ -1,88 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telefonia y Soluciones</title>
-    <link rel="stylesheet" href="css/estilos.css"><!--"link" es como ligo el css al html-->
-    <link rel="stylesheet" href="javascript.js">
+    <title>portada</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/portada.css">
+   
 </head>
 <body>
-    <header>
-    <h1>Telefonia y Soluciones</h1>
-    <img src="images/1.jpg" alt="este es el logotipo de ts"><!--esta funcion "img" es para insertar imagenes-->
-    </header>   
-    <div>
-    
-        <p>
-<h2>
-<a  href="https://wa.me/message/GNCQER3JUU6QN1" class="btn-wsp" target="_blank" >
-          <i class="fa fa-whatsapp whatsapp-icon"></i>    
-</a>
-                
-
-</h2>
-        </p>
-    </div>
-    <section> <!--este divisor para separar espacios en la pagina-->
-
-        <h3>
-    
-            <nav>
-                <button class="nav-boton" onclick="accion()">MENU</button>
-            <a href="#"class="nav-enlase desaparece">Tienda</a> 
-            <a href="#"class="nav-enlase desaparece" > Seguimiento de reparacion</a>
-            <a href="#"class="nav-enlase desaparece">Foro Tecnicos</a>
+    <div class="padre">
+        <header class="header "> 
+            <div class="menu ">
+                <div class="logo remove-bg"><a href="./index.html"><img src="images/logotipo1.png" alt="logotipo ts"></a></div>
+                <nav class="nav ">
+                    <a href="./tienda.html"><i class="fa-solid fa-house-user iconos"></i><span class="off">tienda</span></a>
+                    <a href="./bootstrapprimer/bootstrap.html"><i class="fa-solid fa-newspaper iconos"></i><span class="off">Noticias</span></a>
+                    <a href="https://www.imeicolombia.com.co/ "><i class="fa-solid fa-barcode iconos"></i><span class="off">imei</span></a>
+                    <a href="#"><i class="fa-solid fa-screwdriver-wrench iconos" ><span class="off"></i><span class="off">seguimiento</span></a>
+                    <a href="./unlock_two.html"><i class="fa-solid fa-unlock"><span class="off"></i><span class="off">Unlock</span></a>
+                </nav>
+                <div class="social">
+                    <div><a href="https://www.facebook.com/TSBucaramanga"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="instagram"><a href="https://www.instagram.com/tstelefoniaysoluciones/?hl=es"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+            </div>
             
-        
-            <a href="#"class="nav-enlase desaparece">Diagnostico en linea</a>
-            <a href="#"class="nav-enlase desaparece">Hagalo en casa</a>
-            <a href="#"class="nav-enlase desaparece">Unlock en linea</a>
-        
-        
-        
-        </nav>  
-        <script>
- function accion(){
-    console.log("esta funcionando");
-    var ancla = document.getElementsByClassName('nav-enlase');
-    for(var i = 0; i < ancla.length; i++){
-        ancla[i].classList.toggle('desaparece');
-    }
-
-}
-        </script>    
-    
-        </h3>
-    
-    </section>
-    
-    
-    <nav1>
-    <h3>Sobre Nosotros</h3>
-    <p> <h3 id="parrafo">
-        Lorem ipsum, dolor 
-        <b> sit amet consectetur adipisicing <!-- la "b" es para aplicar negrita-->
-
-        </b> elit. Vitae qui, dicta quos minus laboriosam maiores. Quas, voluptatibus non iusto tempora aut, quaerat necessitatibus esse suscipit odit placeat eius obcaecati corporis!
-    </h3>
-    </p>
-
-    </nav1>
-<section class="padre">
-
-<p class="final">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ducimus repellendus deleniti repellat ab enim officia qui in aut molestias, mollitia odit amet! Modi obcaecati laborum minima aperiam explicabo molestiae?</p>
-<p class="final">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium blanditiis dolor qui rem natus a aspernatur beatae, deserunt saepe culpa deleniti inventore dignissimos. Illo distinctio quasi placeat inventore asperiores tenetur?</p>
-<p class="final">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, adipisci facilis, quo error deleniti enim aliquam libero odio molestias eos iure voluptatibus! Ipsa modi excepturi sit natus eum officiis perferendis.</p>
+            <br>
+            <br>
+            <div class="texto-principal margen-interno">
+                
+            
+                <h1>  <a  href="https://wa.me/message/GNCQER3JUU6QN1" class="btn-wsp" target="_blank" >
+                    <i class="fa-brands fa-whatsapp-square"></i>
+                </a></h1>
+                <br>
+                <br>
+                    <div class="container" >
+                       <ul class="slider" >
+                           <li id="slide1">
+                               <img src="./images/ip11.jpg" alt="" >
+                           </li>
+                           <li id="slide2">
+                               <img src="./images/ip8plus.jpg" alt="">
+                           </li>
+                           <li id="slide3">
+                               <img src="./images/ip7.jpg" alt="">
+                           </li>
+                           <li id="slide4">
+                               <img src="./images/portada 221.jpg" alt="">
+                           </li>
+                       </ul>
+                       <ul class="menuslide">
+                           <li>
+                               <a href="#slide1">1</a>
+                           </li>
+                           <li>
+                               <a href="#slide2">2</a>
+                           </li>
+                           <li>
+                               <a href="#slide3">3</a>
+                           </li>
+                           <li>
+                               <a href="#slide4">4</a>
+                           </li>
 
 
 
 
+                       </ul>
+                       
+                    </div>
+               
+            </div>
+        </header>
+        <section class="section ">
+            <div class="articulos">
+                <article class="article1" ><img src="images/1.jpg" alt="noticia">
+                <h3>5 de marzo 2022</h3>
+                <h2>nombre noticia</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia, consectetur excepturi delectus eum ducimus quos? Excepturi distinctio temporibus dolorum assumenda. Voluptatum consectetur cumque dolore saepe aperiam facilis a voluptate.</p> <a href="#">Leer mas</a>
+               </article>
+                
+               <article class="article" ><img src="images/1.jpg" alt="noticia">
+                <h3>5 de marzo 2022</h3>
+                <h2>nombre noticia</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia, consectetur excepturi delectus eum ducimus quos? Excepturi distinctio temporibus dolorum assumenda. Voluptatum consectetur cumque dolore saepe aperiam facilis a voluptate.</p><a href="#">Leer mas</a>
+               </article>
+               <article class="article" ><img src="images/1.jpg" alt="noticia">
+                <h3>5 de marzo 2022</h3>
+                <h2>nombre noticia</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia, consectetur excepturi delectus eum ducimus quos? Excepturi distinctio temporibus dolorum assumenda. Voluptatum consectetur cumque dolore saepe aperiam facilis a voluptate.</p><a href="#">Leer mas</a>
+               </article>
+               <article class="article" ><img src="images/1.jpg" alt="noticia">
+                <h3>5 de marzo 2022</h3>
+                <h2>nombre noticia</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia, consectetur excepturi delectus eum ducimus quos? Excepturi distinctio temporibus dolorum assumenda. Voluptatum consectetur cumque dolore saepe aperiam facilis a voluptate.</p><a href="#">Leer mas</a>
+               </article>
+                <nav class="navegacion">
+                    <a href="#">Inicio</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">Final</a>
 
-
-</section>
-
+                </nav>
+            </div>
+            <aside class="aside">
+                <div class="publicidad1">
+                    <h4>publicidad</h4>
+                    <img src="images/1.jpg" alt="imagen de la publicidad">
+                </div>
+                <div class="publicidad">
+                    <h4>publicidad</h4>
+                    <img src="images/1.jpg" alt="imagen de la publicidad">
+                </div>
+                <div class="publicidad">
+                    <h4>publicidad</h4>
+                    <img src="images/1.jpg" alt="imagen de la publicidad">
+                </div>
+                <div class="publicidad">
+                    <h4>publicidad</h4>
+                    <img src="images/1.jpg" alt="imagen de la publicidad">
+                </div>
+            </aside>
+        </section>
+        <footer class="footer">
+            <div class="pie"><a href="#">desarrollado por Angelo Uribe</a></div>
+        </footer>
+    </div>
 </body>
 </html>
