@@ -2,32 +2,28 @@
     margin: 0px;
     padding: 0 px;
     box-sizing: border-box;
-    
-    
-
   
 }
 a{
     text-decoration: none;
+    color: white;
+    font-style: none;/*esta es la letra de todos los a */
 
 }
 a:hover{
     color: red;
 }
-.remove-bg{
-    filter: brightness(1.1);
+/*.remove-bg{
+    filter: brightness(1);
     mix-blend-mode: multiply;
-    margin: 15px;
-}
-.margen-interno
-   
-
+    margin: 15px;}*/    /*esto es para hacer transparente el logo*/
+    
 .padre{
     display: flex;
     flex-flow: column nowrap;
     font-family: 'Arimo', sans-serif;
 }
-
+/*contiene la imagen del fondo en la cabecera*/
 .header{
     background: url(../images/telefonocelular.jpg);
     background-position: center;
@@ -35,10 +31,8 @@ a:hover{
     background-size: cover;
     display: flex;
     flex-flow: column nowrap;
-    
-    
-   
 }
+/*menu superior del header*/
       .menu{
           margin-left: 10px;
           margin-right: 10px;
@@ -51,34 +45,34 @@ a:hover{
           align-items: center;
           border-radius: 20px;
           letter-spacing: 2px;
-          
-          
-        
-          
+      }
+      /*imagen del logo*/
+      div a img{
+          border-radius: 50%;
       }
             .logo{
                 margin-top: 20px;
                 flex: 1 1 auto;
-                border-radius: 50px;
-
+                border-radius: 50%;
+                margin-bottom: 20px;
+                margin-left: 10px;
             }
+            /*opciones del menu asi como imei unlock noticias*/
             .nav{
-                
                 flex: 5 1 auto; 
                 margin-top: 40px;
-                margin-bottom: 50px;            
-               
-
+                margin-bottom: 50px;    
+                text-align: center;
+                padding: 10px;        
             }
-            
-            
                 .nav a{
                     color: white;
                     font-size: 15px;
                     text-transform: uppercase;
                     padding: 0 10px;
-                   
-                    
+                    margin-top: 5px;
+                    line-height: 50px;
+
                 }
                 .nav :hover{
                     color: red;
@@ -86,6 +80,7 @@ a:hover{
 
 
                 }
+                /*redes sociales*/
             .social{
                 display: flex;
                 flex: 1 1 auto;
@@ -106,7 +101,7 @@ a:hover{
                     padding: 30px ;
 
                 }
-    
+    /*contenedor de las imagenes slider*/
     
     .container{
         height: 80hv;
@@ -119,13 +114,7 @@ a:hover{
         height: 400px;
         flex-flow: nowrap;
         margin-bottom: 20px;
-       
-
-
-        
-        
-        
-        
+   
     }
     ul, li{
         margin: 0;
@@ -150,6 +139,7 @@ a:hover{
        
 
     }
+    /*imagenes slider*/
     ul.slider li img{
        
         height: 340px;
@@ -158,6 +148,7 @@ a:hover{
         width: 97%;
         margin: 10;
         padding: 10;
+        justify-content: center;
     }
     ul.slider li:first-child{
         opacity: 1;
@@ -165,6 +156,7 @@ a:hover{
     ul.slider li:target{
         opacity: 1;
     }
+    /*botones 1 2 3 4 del slider */
     .menuslide{
         text-align: center;
         margin-top: 50px;
@@ -186,7 +178,7 @@ a:hover{
         border-radius: 100%;
     }
 
-                
+       /*noticias*/         
 .section{
     
     color: white;
@@ -266,7 +258,7 @@ a:hover{
                 margin-top: -70px;
             }
         
-            
+            /*para pasar las paginas de noticias*/
             .navegacion{
                 background: black;
                 flex: 1 1 100%;
@@ -282,6 +274,7 @@ a:hover{
                 padding: 0 10px;
                 letter-spacing: 2px;
             }
+            /*publicidad*/
         .aside{
             background: white;
             flex: 1 1 auto;
@@ -330,11 +323,13 @@ a:hover{
             
             
         }
+        /*cambios de tamaños flexible o responsive*/
 
 @media all and (max-width: 988px){
     .section{
         flex-direction: column;
     }
+
     .menu{
         flex-direction: column;
         height: auto;
@@ -352,16 +347,15 @@ a:hover{
         
 
         }
-        .off{
-            display: none;
-        }
-  
+
+   
     aside{
         display: flex;
         justify-content: center;
     }
     .container{
         display: flex;
+
     flex-flow: column nowrap;
     background: none;
     }
@@ -392,9 +386,15 @@ a:hover{
 
 @media all and (max-width: 810px){
     ul.slider li img{
-        width: 100%;
+        width: 70%;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
     }
-}    
+    .container{
+                 justify-content: center;
+    }
+}  
 
 @media all and (max-width: 762px){
     .articulos{
